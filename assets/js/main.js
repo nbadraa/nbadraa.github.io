@@ -205,7 +205,8 @@
     loop: true,
     autoplay: {
       delay: 5000,
-      disableOnInteraction: false
+      disableOnInteraction: false,
+      pauseOnMouseEnter: true
     },
     pagination: {
       el: '.swiper-pagination',

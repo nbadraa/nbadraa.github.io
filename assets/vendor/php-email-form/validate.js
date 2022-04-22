@@ -12,6 +12,11 @@
     e.addEventListener('submit', function(event) {
       event.preventDefault();
 
+      console.log('change 2');
+      window.location.href = "mailto:nbadraa@gmail.com";
+
+      return;
+
       let thisForm = this;
 
       let action = thisForm.getAttribute('action');
